@@ -1,0 +1,18 @@
+# mac
+.DS_Store
+
+# build output
+dist/
+
+# dependencies
+node_modules/
+package-lock.json
+
+# Logs 
+logs
+*.log
+npm-debug.log*
+
+# vscode
+/.idea/
+.vscode
