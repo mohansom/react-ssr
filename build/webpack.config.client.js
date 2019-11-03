@@ -11,7 +11,7 @@ const config = webpackMerge(baseConfig,{
         app:path.join(__dirname,'../client/client-entry.js')
     },
     output:{
-        filename:'[name].[hash].js',
+        filename:'[name].[hash:8].js',
     },
     plugins:[
         new HtmlWebpackPlugin({
